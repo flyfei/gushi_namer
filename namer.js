@@ -1,7 +1,7 @@
 $(function() {
     console.log('ready');
     $('#btn-go').on('click', function() {
-            refreshName(10)
+            refreshName(100)
         })
         // refreshName(3);
     function refreshName(num) {
